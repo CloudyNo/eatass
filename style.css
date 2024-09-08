@@ -18,15 +18,12 @@ body {
     gap: 1rem;
 }
 
-.container > div {
+.container > img {
     flex: 1;
     border-radius: 1rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
     transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
 }
 
-.container > div:hover {
+.container > img:hover {
     flex: 5;
 }
