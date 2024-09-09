@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 1em;
-    width: 90%;
+    width: 1000px;
     height: 500px;
     transition: all 400ms;
 }
