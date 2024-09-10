@@ -7,9 +7,16 @@
     font-family: "Figtree", sans-serif;
 }
 
-body {
-    place-content: center;
-    min-height: 100vh;
+body, html {
+    height: 100%;
+    margin: 0;
     background-color: #000;
-    background-image: url(/media/mogensen.png);
+}
+
+.bg {
+    background-image: url("/media/mogensen.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
