@@ -40,21 +40,19 @@ body {
 
 .container .box:hover {
     filter: grayscale(0%) opacity(100%);
+    cursor:pointer;
 }
 
 .container:has(.box-1:hover) {
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
-    cursor:pointer;
 }
 
 .container:has(.box-2:hover) {
     grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
-    cursor:pointer;
 }
 
 .container:has(.box-3:hover) {
     grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
-    cursor:pointer;
 }
 
 .container:has(.box-4:hover) {
