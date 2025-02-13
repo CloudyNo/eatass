@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body {
+    place-content: center;
+    min-height: 100vh;
+    background-color: #22222b;
+}
+
+div {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.rotate {
+    animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}

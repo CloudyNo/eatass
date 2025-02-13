@@ -3,16 +3,23 @@
     <head>
         <title>marine</title>
         <link rel="stylesheet" href="style.css">
+        <script>
+            function updatePins() {
+                document.getElementById("textDisplay").innerHTML = "yes";
+            }
+        </script>
     </head>
     <body>
         <div class="container">
-            <div class="formbox">
+            <div class="formBox">
                 <form>
-                    <label for="finput">First name:</label><br>
+                    <label for="finput" Input="updatePins()">First name:</label><br>
                     <input type="text" id="finput" name=""><br>
                 </form>
             </div>
-            <div class="displaybox"></div>
+            <div class="displayBox"></div>
+                <p id="textDisplay"></p>
+            </div>
         </div>
     </body>
 </html>
